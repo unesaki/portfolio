@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>うねのポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="clearfix.css">
+</head>
+
+
+<body>
+    <div id="wrap">
+        <!--背景画像-->
+        <div id="bg"></div>
+
+        <div id="container">
+            <header><span href="#" class="menu-trigger"><span></span><span></span><span></span></span></header>
+        
+            <!--メイン画像＋ポートフォリオ-->    
+            <div id="main-image">
+                <h1><img src="images/main-image1.png" alt="メイン画像"></h1>
+
+                <!--ポートフォリオの文章-->
+                <div id="js-fadeText">
+                    <h2 id="h2-1">HIROTO UNESAKI's</h2>
+                    <h2 id="h2-2">portfolio</h2>
+                </div>
+            </div>
+
+             <!-- ハンバーガーメニュー部分 -->
+            <div class="nav">
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+                <!-- メニュー -->
+                <nav class="nav_content">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#">TOP</a></li>
+                        <li class="nav_item"><a href="#works">WORKS</a></li>
+                        <li class="nav_item"><a href="#about">AOBUT</a></li>
+                        <li class="nav_item"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <section id="contents">
+                <section id="works">
+                    <h2>works</h2>
+
+                    <div id="work-contents">
+                        <div class="hover">
+                            <a href="work1.html" class="image_link"><img src="images/works1.png" alt="タイピングサイト"></a>
+                            <p id="ty">タイピングサイト　/Web</p>
+                        </div>
+                        <div class="hover">    
+                            <a href="work2.html" class="image_link2"><img src="images/works2.png" alt="自動計算サイト"></a>
+                            <p id="ca">自動計算サイト　/Web</p>
+                        </div>
+                        
+                        <div class="hover">
+                            <a href="work3.html" class="image_link3"><img src="images/works3.png" alt="ToDoリスト"></a>
+                            <p id="to">ToDoリスト　/Web</p>
+                        </div>
+                    </div>
+                    <a class="anm-btn" href="#">MORE</a>
+                </section>
+
+                <section id="about">
+                    <h2>about</h2>
+                    <div class="about-list">
+                        <div class="profile">
+                            <p class="main">ウネサキヒロト</p>
+                            <p class="sub">Unesaki Hiroto</p>
+                        </div>
+
+                        <div class="profile-right">
+                            <p>愛知の大学に通う3年生です。出身は広島。<br>これまで剣道を15年続けてきました。全国優秀選手も受賞<br>動くWebサイトを見つけたきっかけで業界に興味を持ちました。<br>
+                            現在はコーディングを勉強中です。<br>甘いものには目がありません。</p>
+                        </div>
+
+                        <div class="profile">
+                            <p class="main">スキル・やりたいこと</p>
+                            <p class="sub">skill ・ what I wanna do</p>
+                        </div>
+
+                        <div class="profile-right">
+                            <p>Illustrator・Photoshop・XD・HTML・css / 基本的な作業<br>サイトを作成しながら必要となるソフトやコーディングの学習を進めました。<br>JavaScriptは基礎的な技術を、jQueryは簡単な動きをつけるレベルで扱えます。
+                            <br>動的なWebサイトを作りたく、PHP・SQL そしてJavaScriptを学習しています。<br>また、サイト制作だけではなく、自身でサービスやシステムを作ってみたいです!</p>
+                        </div>
+                    </div>
+
+                    <div id="contact">
+                        <h2>contact</h2>
+                        <p>お気軽にお問合せください</p>
+                        <a class="anm-btn" href="mailto:unesaki1610@gmail.com">unesaki1610@gmail.com</a>
+                    </div>
+                </section>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2021 - 2022 HIROTO UNESAKI.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
